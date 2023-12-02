@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,300&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:ital@1&family=Montserrat:wght@500&family=Outfit:wght@300;700&family=Poppins&family=Red+Hat+Display:wght@500;700;900&family=Roboto:ital,wght@1,300&family=Young+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: 	#e0e8ff;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.continer .section1 img{
+    border-radius: 20px;
+    width: 350px;
+}
+
+.container .section2{
+    width: 350px;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.container .section2 h2{
+    padding-bottom: 10px;
+    color: 	#1f2f56;
+}
+
+.container .section2 .para{
+    font-size: 16px;
+    padding-bottom: 10px;
+    color: #7280a7;
+}
+
+.container .section2 .plans{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f7ff;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.plans .btn button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #3829e0;
+    text-decoration: underline;
+}
+
+.plans .btn button:hover{
+    color: #7280a7;
+}
+
+.container .section2 .plans .plan1{
+    margin-left: 18px;
+}
+
+.container .section2 .plans .plan1 .image img{
+    vertical-align: middle;
+}
+
+
+.container .section2 .plans .btn{
+    margin-right: 18px;
+}
+
+.plan1{
+    display: flex;
+    gap: 15px;
+}
+
+.plan1 .p .amount{
+    margin-top: 10px;
+}
+
+.plan1 .p .annual_plan_text{
+    color: #1f2f56;
+    font-weight: 900;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.buttons .payment_button{
+    margin-top: 20px;
+}
+
+.buttons .payment_button button{
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: #e0e8ff 10px 10px 20px;
+    background-color: 	#3829e0;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.buttons .payment_button button:hover{
+    background-color: #7280a7;
+}
+
+.buttons .cancel_button button{
+    padding: 5px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #7280a7;
+}
+
+.buttons .cancel_button button:hover{
+    color: #1f2f56;
+}
