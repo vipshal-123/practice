@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,300&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:ital@1&family=Inter:wght@400;700&family=Montserrat:wght@500&family=Outfit:wght@300;700&family=Poppins&family=Red+Hat+Display:wght@500;700;900&family=Roboto:ital,wght@1,300&family=Young+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: 	#090b1a;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .section1{
+    width: 500px;
+    background-color: 	#1b1938;
+    padding: 70px;
+    text-align: center;
+    color: white;
+}
+
+.container .section1 h1{
+    color: white;
+}
+.container .section1 h1 span{
+    color: 	#aa5cdb;
+}
+
+.container .section1 p{
+    font-size: 15px;
+    margin-top: 20px;
+    
+}
+
+.container .section1 .first_para{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.container .section1 .template{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+
+}
+
+.container .section1 .template p{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 15px;
+}
+
+.container .section2 img{
+    width: 500px;
+    height: 380px;
+}
+
+.container .section2{
+    height: 380px;
+}
+
+.container .section2 .overlay{
+    height: 380px;
+    width: 500px;
+    background-color: #aa5cdb;
+    position: absolute;
+    top: 125px;
+    bottom: 0px;
+    opacity: 0.5;
+}
+
